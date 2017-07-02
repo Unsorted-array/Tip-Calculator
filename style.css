@@ -1,0 +1,95 @@
+
+body {
+   
+    background: #333 url("imag/cutlery_4b766b45c8dfd_hires.jpg")  no-repeat;
+    background-size: cover;
+    color: #111;
+}
+
+#container
+{
+    width: 550px;
+    margin: 40px auto;
+    padding: 50px;
+    box-sizing: border-box;
+    background: url("imag/fdp_Anusorn-P-nachol-paper-ID-100107714.jpg") top left repeat ;
+    border: solid 2px black;
+    box-shadow: 0 10px 15px -8px #000;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+h1
+{
+    font-size: 45px;
+    margin:0 0 20px  ;
+    padding: 0 0 20px;
+    border-bottom: solid 1px #fff;
+}
+form
+{
+    text-align: left;
+}
+form label
+{
+    display: block;
+    margin: 25px 0;
+    font-weight: bold;
+}
+
+form input , form select
+{
+    padding: 10px;
+    margin:  10px 0px;
+
+}
+form input[type="text"]
+{
+    width: 90px;
+}
+button
+{
+    background: border-box;
+    color: black;
+    font-weight: bold;
+    border: solid 2px #111 ;
+    font-size: 22px;
+    padding: 20px 10px 20px ;
+    width: 100%;
+
+
+}
+button:hover
+{
+    background-color:#eee;
+
+}
+button:active
+{
+    top:1px;
+    position: relative;
+
+}
+#totaltip
+{
+    display: block;
+    font-size:40px;
+    margin :10px 20px;
+    padding: 2px;
+}
+#totaltip:before
+{
+    margin-top: 20px;
+    content: "Tip ";
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+
+}
+sub
+{
+    font-size: 13px;
+}
